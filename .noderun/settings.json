@@ -1,0 +1,17 @@
+{
+  "current git repository": "",
+  "git repositories": [
+    ""
+  ],
+  "app start": "start.js",
+  "routes": {
+    "web_services/get_all.js": {
+      "method": "get",
+      "route": "requests"
+    },
+    "get_one.js": {
+      "method": "get",
+      "route": "requests/:id"
+    }
+  }
+}
